@@ -10,7 +10,6 @@ urlpatterns = [
     path('reset-password/<uid>/<token>/',UserPasswordResetView.as_view(), name='reset-password'),
      
 
-
 ]
 
 
